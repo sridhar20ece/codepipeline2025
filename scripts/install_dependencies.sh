@@ -1,4 +1,6 @@
 #!/bin/bash
+aws s3 cp s3://mycodedeploy2025/app.jar /home/ubuntu/ 
+sudo chmod 777 /home/ubuntu/app.jar
 
 #sudo apt-get update
 #sudo apt-get install openjdk-11-jdk unzip -y
@@ -7,4 +9,4 @@
 #3unzip awscliv2.zip
 #sudo ./aws/install
 
-aws s3 cp s3://mycodedeploy2025/app.jar /home/ubuntu/app.jar  #make sure to change the bucket name here
+ #make sure to change the bucket name here
