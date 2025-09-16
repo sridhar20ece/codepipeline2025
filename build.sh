@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello from Jenkins Build! Triggered on $(date)"
+echo "Hello from Jenkins Build! Triggered on New $(date)"
